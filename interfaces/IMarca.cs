@@ -6,7 +6,7 @@ namespace Projeto_produtos.interfaces
     public interface IMarca
     {
         string Cadastrar(Marca marca);
-        List<Marca> Listar();
+        List <Marca> Listar();
         string Deletar(Marca marca);
     }
 }
