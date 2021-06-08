@@ -7,5 +7,6 @@ namespace Projeto_produtos.interfaces
     {
         string Cadastrar(Marca marca);
         string Deletar(Marca marca);
+        List<Marca> Listar();
     }
 }

@@ -40,6 +40,10 @@ namespace Projeto_produtos.classes
             return "Deletado";
         }
 
+        public List<Marca> Listar(){
+            return ListaMarca;
+        }
+
 
     }
 }
