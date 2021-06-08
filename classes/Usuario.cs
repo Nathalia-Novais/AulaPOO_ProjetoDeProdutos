@@ -6,13 +6,13 @@ namespace Projeto_produtos.classes
 {
     public class Usuario : IUsuario
     {
-        private int Codigo { get; set; }
-        private string Nome  { get; set; }
-        private string Email { get; set; }
-        private string Senha { get; set; }
-        private DateTime DataCadastro { get; set; }
+        public int Codigo { get; set; }
+        public string Nome  { get; set; }
+        public string Email { get; set; }
+        public string Name { get; set; }
+        public string Senha { get; set; }
+        public DateTime DataCadastro { get; set; }
         public List<Usuario> ListaUsuario= new List<Usuario>();
-
         public Usuario(){
 
         }
