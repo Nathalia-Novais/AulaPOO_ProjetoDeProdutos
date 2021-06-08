@@ -8,9 +8,9 @@ namespace Projeto_produtos.classes
     {
 
 
-        private int Codigo { get; set; }
-        private string NomeMarca { get; set; }
-        private DateTime DataCadastro { get; set; }
+        public int Codigo { get; set; }
+        public string NomeMarca { get; set; }
+        public DateTime DataCadastro { get; set; }
         List<Marca> ListaMarca = new List<Marca>();
 
         public Marca()
